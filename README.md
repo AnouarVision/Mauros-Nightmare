@@ -24,8 +24,6 @@ The challenge combines engaging gameplay with cybersecurity education, requiring
 - **Vulnerable Login Page**: Gateway to the main security challenge
 
 ### Time-Based SQL Injection Challenge
-- **Temporal Vulnerability**: Exploit timing differences to extract information
-- **Character-by-Character Extraction**: Systematic password revelation mechanism
 - **Time Constraint**: Complete the exploit within a 5 minute window
 
 ---
