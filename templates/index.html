@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to Mauro's World</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        {% include "header.html" %}
+        <h1>Mauro's World – The Game Begins</h1>
+        
+        <div class="video-box">
+            <video autoplay loop controls>
+                <source src="/static/resources/mauro_intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <p class="mauro">
+                I'm waiting for you... I want to play. Forever.
+            </p>
+        </div>
+
+        <button onclick="location.href='/game'">Explore Mauro's world</button>
+
+        {% include "footer.html" %}
+    </div>
+</body>
+
+</html>
+
